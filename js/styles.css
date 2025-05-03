@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f9;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  #hoverBox {
+    background: #dfe6e9;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  #hoverBox:hover {
+    background: #74b9ff;
+    color: white;
+  }
+  
+  .tabContent {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background: #dcdde1;
+  }
+  
+  .tabContent.active {
+    display: block;
+  }
+  
+  #secretZone {
+    background: #ffeaa7;
+    padding: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+  }
+  
